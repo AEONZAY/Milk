@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>TechHades</title>
+  <link rel="icon" type="image/x-icon" href="images/nks.jpg">
+<link rel="stylesheet" href="css/pass.css">
+<link rel="stylesheet" href="css/navbar.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" ></script>
+</head>
+<body>
+<center>
+  <header>
+
+  <h1>
+    Naing Kaung Sett's Milk Shop
+  </h1>
+   
+
+</header>
+</center>
+
+
+<div class="wrapper" id="wrap">
+<div class="wrapper" id="content">
+<h2>Opening Times</h2>
+<label>
+    Monday:
+<button id="sel" onclick="mon()">Selling Time</button>
+</label>
+<br>
+<label>
+  Tuesday:
+  <button id="sel" onclick="tue()">Selling Time</button>
+</label>
+<br>
+<label>
+  Wednesday:
+  <button id="sel" onclick="wed()">Selling Time</button>
+</label>
+<br>
+<label>
+  Thursday:
+  <button id="sel" onclick="thu()">Selling Time</button>
+</label>
+<label>
+  Friday:
+  <button id="sel" onclick="fri()">Selling Time</button>
+</label>
+<label>
+  Weekend:
+  <button id="sel" onclick="wek()">Selling Time</button>
+</label>
+
+
+
+
+</div>
+</div>
+  <script>
+        text = "Selling Time: "
+
+    function mon(){
+         alert(text + "5 AM - 8:30 AM and 3:30 PM - 11:30 PM")
+    }
+
+    function tue(){
+         alert(text + "4:30 AM - 8:30 AM and 4:30 PM - 10:30 PM")
+    }
+
+    function wed(){
+         alert(text + "5 AM - 8 AM and 3:30 PM - 12:00 AM")
+    }
+
+    function thu(){
+         alert(text + "4 AM - 8:30 AM and 3:30 PM - 10:00 PM")
+    }
+
+    function fri(){
+         alert(text + "6 AM - 8 AM and 4 PM - 12:00 AM")
+    }
+
+    function wek(){
+         alert(text + "4 AM - 12:00 AM")
+    }
+</script>
+</body>
+</html>
